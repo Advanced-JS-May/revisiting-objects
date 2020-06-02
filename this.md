@@ -100,9 +100,36 @@ fn();
   fn2();
   ```
 
-### Rule #3: Explicit Binding: call, apply, bind
+### Rule #3: Explicit Binding: `call`, `apply`, `bind`
 
-  
+```javascript
+function fn() {
+  console.log(this.name)
+}
+
+const user = {
+  name: 'Vrezh'
+}
+
+fn.call(user);
+fn.apply(user);
+```
+
+- Passing arguments
+
+```javascript
+function fn(arg1, arg2, arg3) {
+  console.log(this.name)
+}
+
+const user = {
+  name: 'Vrezh'
+}
+
+fn.call(user, 1, 2, 3);
+fn.apply(user, [1, 2, 3]);
+```
+
 - new
 
 - window
