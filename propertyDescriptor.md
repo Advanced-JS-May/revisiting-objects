@@ -81,4 +81,15 @@ Object.defineProprty(user, "isDeveloper", {
   - `Object.seal`
   - `Object.preventExtensions`
 
-## [[GET]]
+## Getters and Setters
+
+```javascript
+const user = {
+  get name() {
+    return 'Vrezh'
+  },
+  set name(name) {
+    return name.trim()
+  }
+}
+```
