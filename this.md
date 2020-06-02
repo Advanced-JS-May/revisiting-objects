@@ -130,7 +130,29 @@ fn.call(user, 1, 2, 3);
 fn.apply(user, [1, 2, 3]);
 ```
 
-- new
+- `bind`
+
+```javascript
+function fn(arg1, arg2, arg3) {
+  console.log(this.name)
+}
+
+const user = {
+  name: 'Vrezh'
+}
+
+const callLater = fn.bind(user);
+
+// some code...
+
+callLater();
+```
+
+- Let's write our own bind using `apply`
+
+### Rule #4: `new` Binding
+
+
 
 - window
 
