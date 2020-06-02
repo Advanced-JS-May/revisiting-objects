@@ -156,6 +156,15 @@ callLater();
 
 ### Rule #4: `new` Binding
 
+- Default function call
+- Constructor call
+
+- When a function is invoked with `new`, following algorithm is working
+  1. brand new object is being created
+  2. `[[Prototype]]` linking with new object from step #1
+  3. the newly created object is bound as `this` for the function call
+  4. unless the function returns object, the newly constructed object from step #1 is being returned
+
 ```javascript
 
 ```
