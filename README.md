@@ -13,7 +13,7 @@ const user = { name: 'Vrezh' };
 console.log(user.isHuman); // ??? true ???
 ```
 
-## __proto__
+## \_\_proto\_\_
 
 ```javascript
 const person = { isHuman: true };
