@@ -1,5 +1,5 @@
 # Lessons
 
+- [Property Descriptor](./propertyDescriptor.md)
 - [Prototype](./prototype.md)
 - [This](./this.md)
-- [Property Descriptor](./propertyDescriptor.md)
