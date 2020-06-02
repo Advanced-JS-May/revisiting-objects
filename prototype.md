@@ -6,6 +6,8 @@ _Note, materials of this lesson based on Dan Abramov's [newsletter](https://just
 
 [Code Examples](https://repl.it/@vrezhhovanisyan/6lessonprototype#index.js)
 
+## Property and method
+
 ## What?
 
 ```javascript
