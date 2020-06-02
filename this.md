@@ -166,7 +166,23 @@ callLater();
   4. unless the function returns object, the newly constructed object from step #1 is being returned
 
 ```javascript
+function fn (text) {
+  this.arg = text
+}
 
+const instance = new fn('Lorem ipsum');
+console.log(instance.arg)
 ```
+
+### Determining `this`
+
+1. if called with `new` => `this` equals to newly constructed object
+2. if called with `call`, `apply`, `bind` => `this` equals to specified object
+3. if the implicit binding happened => `this` equals to object context
+4. otherwise =>
+  - non-strict mode
+    - `this` equals to `global` object
+  - strict mode
+    - `undefined`
 
 ## Arrow functions and `this`
