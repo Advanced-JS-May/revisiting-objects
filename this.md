@@ -6,6 +6,10 @@ but instead has everything to do with a manner how the function is called_ (c) Y
 _[...] `this` is actually a bindind that is made when a function invoked_ (c) YDKJS
 
 
+## Global `this`
+
+## 'use strict'
+
 ## Call-site and four rules of determining this
 
 - Call-site
@@ -152,8 +156,8 @@ callLater();
 
 ### Rule #4: `new` Binding
 
+```javascript
 
+```
 
-- window
-
-- use strict
+## Arrow functions and `this`
