@@ -87,3 +87,5 @@ user1.__proto__.isHuman = false;
 console.log(user1.isHuman)
 console.log(user2.isHuman)
 ```
+
+## Object.create
