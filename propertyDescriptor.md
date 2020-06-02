@@ -1,5 +1,7 @@
 # Property Descriptors
 
+[Repl](https://repl.it/@vrezhhovanisyan/6lessonproperty#index.js)
+
 ```javascript
 const user = {
   name: 'Vrezh',
@@ -19,7 +21,7 @@ const user = {
   age: 22
 }
 
-Object.defineProprty(user, "isDeveloper", {
+Object.defineProperty(user, "isDeveloper", {
   value: true,
   writable: false,
   configurable: true,
@@ -45,7 +47,7 @@ const user = {
   age: 22
 }
 
-Object.defineProprty(user, "isDeveloper", {
+Object.defineProperty(user, "isDeveloper", {
   value: true,
   writable: false,
   configurable: false,
@@ -55,7 +57,7 @@ Object.defineProprty(user, "isDeveloper", {
 user.isDeveloper = false;
 console.log(user);
 
-Object.defineProprty(user, "isDeveloper", {
+Object.defineProperty(user, "isDeveloper", {
   value: true,
   writable: false,
   configurable: true,
