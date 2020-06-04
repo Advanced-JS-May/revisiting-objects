@@ -1,3 +1,5 @@
 ## Classes theory
 
-**REPL!!!**
+- .prototype Binding
+
+- **REPL!!!**
