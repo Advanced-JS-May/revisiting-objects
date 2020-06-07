@@ -73,17 +73,18 @@ fn();
   function foo() {
     console.log(this.a);
   }
-  
-  const obj1 = {
-    a: 42,
-    foo: foo,
-  };
-  
+
   const obj2 = {
     a: 2,
-    obj2: obj2
+    foo: foo,
   }
-  
+
+  const obj1 = {
+    a: 42,
+    obj2: obj2
+  };
+
+
   obj1.obj2.foo();
   ```
 
