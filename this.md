@@ -186,6 +186,19 @@ console.log(instance.arg)
   - strict mode
     - `undefined`
 
+## Nested Functions
+```javascript
+const obj = {
+  fn() {
+    console.log(this);
+    function iFn() {
+      console.log(this);
+    }
+    iFn();
+  },
+};
+```
+
 ## Arrow functions and `this`
 
 ```javascript
