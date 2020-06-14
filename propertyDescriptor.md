@@ -88,9 +88,10 @@ Object.defineProperty(user, "isDeveloper", {
 ```javascript
 const user = {
   get name() {
-    return 'Vrezh'
+    return user._name
   },
   set name(name) {
+    user._name = name.trim()
     return name.trim()
   }
 }
