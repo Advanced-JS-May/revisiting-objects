@@ -47,6 +47,8 @@ console.log(user.hasOwnProperty('isHuman')); // true
 console.log(person.hasOwnProperty('isHuman')); // true
 ```
 
+- `in` operator
+
 ## Assignment
 
 ```javascript
