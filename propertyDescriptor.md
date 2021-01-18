@@ -1,6 +1,6 @@
 # Property Descriptors
 
-[Repl](https://repl.it/@vrezhhovanisyan/6lessonproperty#index.js)
+[Repl](https://repl.it/@vrezhhovanisyan/gettersetter)
 
 ```javascript
 const user = {
